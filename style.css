@@ -126,11 +126,13 @@ select {
 .select::after {
   content: '\25BC';
   position: absolute;
-  background: #19547b;
+  background: purple;
+  /* background: #19547b; */
   top: 0;
   right: 0;
   padding: 1rem;
   pointer-events: none;
+  cursor: pointer;
   transition: all 0.3s ease;
 }
 
